@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.springlec.base.dao.BDao">
+	<!-- 게시판 첫화면 보여주기 -->
+	<select id="listDao" resultType="com.springlec.base.model.BDto">
+		SELECT * FROM addressBook
+	</select>
+	
+	<!-- 게시판에 글작성 입력 -->
+	<insert id="writeDao">
+		insert into addressBook (name, telno, email, relation, address) values(#{name}, #{telno}, #{email}, #{relation}, #{address})
+	</insert>
+	<select id="contentDao" resultType="com.springlec.base.model.BDto">
+		SELECT seqno, name, telno, email, relation, address
+		FROM addressBook
+		where seqno = #{seqno}
+	</select>
+	<update id="updateDao">
+		update addressBook
+		set name = #{name}, telno = #{telno}, address = #{address}, email = #{email}, relation = #{relation}
+		where seqno = #{seqno}
+	</update>
+		<delete id="deleteDao">
+		DELETE FROM addressBook
+		WHERE seqno = #{seqno}
+	</delete>
+	
+	<select id="listQuery" resultType="com.springlec.base.model.BDto">
+		<!-- SELECT * 
+		FROM addressBook 
+		where ${query} like concat('%' #{content}, '%')
+		 -->
+		 
+		 select * 
+		 from addressBook 
+		 where ${query} like #{content}
+		 
+		 
+	</select>
+	
+</mapper>

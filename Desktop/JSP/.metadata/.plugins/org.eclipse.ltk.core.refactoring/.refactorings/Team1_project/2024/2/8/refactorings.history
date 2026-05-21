@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;Team1_project/src/main/webapp/admin/NoticeManager.jsp&apos; to &apos;Noticemanager.jsp&apos;" description="Rename resource &apos;NoticeManager.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/admin/NoticeManager.jsp" name="Noticemanager.jsp" stamp="1708332663851" updateReferences="true"/>
-</session>

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move source folder &apos;java&apos; to &apos;Bean_01&apos;&#x0A;- Original project: &apos;Bean_01&apos;&#x0A;- Destination element: &apos;Bean_01&apos;&#x0A;- Original element: &apos;Bean_01/src/main/java&apos;&#x0A;- Update references to refactored element" description="Move source folder" destination="=Bean_01" element1="/src\/main\/java" flags="6" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveRoots" roots="1" stamp="1708326896655" version="1.0"/>
-</session>

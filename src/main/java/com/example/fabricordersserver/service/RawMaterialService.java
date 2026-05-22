@@ -10,6 +10,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
+/**
+ * Service layer for raw material operations: CRUD and search logic.
+ */
 public class RawMaterialService {
 
     private final RawMaterialRepository rawMaterialRepository;

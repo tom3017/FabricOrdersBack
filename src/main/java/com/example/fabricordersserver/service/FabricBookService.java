@@ -10,6 +10,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
+/**
+ * Service layer for FabricBook operations: CRUD and simple searches.
+ */
 public class FabricBookService {
 
     private final FabricBookRepository fabricBookRepository;

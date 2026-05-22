@@ -2,6 +2,10 @@ package com.example.fabricordersserver.dto;
 
 import com.example.fabricordersserver.entity.Vendor;
 
+/**
+ * Response DTO returned to frontend representing a vendor.
+ * Constructed from the `Vendor` entity and used by list/detail views.
+ */
 public class VendorResponseDto {
 
     private Long id;

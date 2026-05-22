@@ -11,6 +11,9 @@ import java.util.List;
 @CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/raw-materials")
+/**
+ * REST controller exposing CRUD and search endpoints for raw materials.
+ */
 public class RawMaterialController {
 
     private final RawMaterialService rawMaterialService;

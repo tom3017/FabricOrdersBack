@@ -45,7 +45,7 @@ public class SecurityConfig {
                 .permitAll()
 
 
-                .requestMatchers("/manufacturers/**")
+                .requestMatchers("/clients/**")
 
                 .permitAll()
                 // 나머지는 허용

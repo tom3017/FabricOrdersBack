@@ -11,6 +11,10 @@ import java.util.List;
 @CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/vendors")
+/**
+ * REST controller exposing CRUD endpoints for vendors (거래처).
+ * Endpoints are used by the frontend vendor management pages.
+ */
 public class VendorController {
 
     private final VendorService vendorService;

@@ -1,5 +1,8 @@
 package com.example.fabricordersserver.dto;
 
+/**
+ * DTO used when creating or updating a FabricBook from the frontend.
+ */
 public class FabricBookRequestDto {
 
     private String manufacturer;

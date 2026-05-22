@@ -3,6 +3,10 @@ package com.example.fabricordersserver.entity;
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
+/**
+ * Entity representing a raw material or stock item.
+ * Matches fields shown in raw materials UI and is persisted to `raw_materials`.
+ */
 @Entity
 @Table(name = "raw_materials")
 public class RawMaterial {

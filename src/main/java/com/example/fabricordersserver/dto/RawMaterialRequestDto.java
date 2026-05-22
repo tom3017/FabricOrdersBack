@@ -1,5 +1,8 @@
 package com.example.fabricordersserver.dto;
 
+/**
+ * DTO for creating or updating raw materials from frontend requests.
+ */
 public class RawMaterialRequestDto {
 
     private String itemName;

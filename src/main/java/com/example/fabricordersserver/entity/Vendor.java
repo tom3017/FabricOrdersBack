@@ -3,6 +3,10 @@ package com.example.fabricordersserver.entity;
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
+/**
+ * Entity representing a vendor (거래처).
+ * Fields match the frontend vendor form and are persisted to the `vendors` table.
+ */
 @Entity
 @Table(name = "vendors")
 public class Vendor {

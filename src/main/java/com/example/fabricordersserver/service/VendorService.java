@@ -11,6 +11,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
+/**
+ * Service layer for vendor business logic. Handles CRUD and simple queries.
+ */
 public class VendorService {
 
     private final VendorRepository vendorRepository;

@@ -11,6 +11,10 @@ import java.util.List;
 @CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/fabric-books")
+/**
+ * REST controller for fabric book CRUD and search operations.
+ * Used by the fabric book management pages in the frontend.
+ */
 public class FabricBookController {
 
     private final FabricBookService fabricBookService;

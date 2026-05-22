@@ -2,6 +2,9 @@ package com.example.fabricordersserver.dto;
 
 import com.example.fabricordersserver.entity.RawMaterial;
 
+/**
+ * Response DTO returned to the frontend representing a raw material.
+ */
 public class RawMaterialResponseDto {
 
     private Long id;

@@ -3,6 +3,10 @@ package com.example.fabricordersserver.entity;
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
+/**
+ * Entity representing a fabric book (원단북) entry.
+ * Contains metadata displayed in the fabric book UI.
+ */
 @Entity
 @Table(name = "fabric_books")
 public class FabricBook {

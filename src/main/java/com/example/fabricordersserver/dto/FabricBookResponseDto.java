@@ -2,6 +2,9 @@ package com.example.fabricordersserver.dto;
 
 import com.example.fabricordersserver.entity.FabricBook;
 
+/**
+ * Response DTO returned to the frontend representing a FabricBook.
+ */
 public class FabricBookResponseDto {
 
     private Long id;

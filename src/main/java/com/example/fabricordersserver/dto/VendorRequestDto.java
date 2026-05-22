@@ -1,5 +1,9 @@
 package com.example.fabricordersserver.dto;
 
+/**
+ * DTO for creating or updating a vendor from frontend payload.
+ * Fields correspond to the vendor form inputs sent by the UI.
+ */
 public class VendorRequestDto {
 
     private String groupName;
